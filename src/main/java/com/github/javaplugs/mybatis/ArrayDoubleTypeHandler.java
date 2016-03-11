@@ -35,6 +35,7 @@ public class ArrayDoubleTypeHandler extends ArrayTypeHandler<Double[]> {
     @Override
     protected String getTypeName(PreparedStatement ps) {
         // Now support only PostgreSQL types
+        System.out.print("hello");
         return "float8";
     }
 }
